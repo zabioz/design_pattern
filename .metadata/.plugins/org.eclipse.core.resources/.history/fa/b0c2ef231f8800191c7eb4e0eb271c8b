@@ -1,0 +1,8 @@
+package FactoryMethod;
+
+public abstract class CutPrint {
+
+	protected abstract void draw
+	protected abstract void cut
+	protected abstract void print
+}

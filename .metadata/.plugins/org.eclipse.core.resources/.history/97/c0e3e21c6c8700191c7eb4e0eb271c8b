@@ -1,0 +1,16 @@
+package iterator_1;
+
+public class MyTeacher extends Teacher{
+	private StudentList studentList;
+	
+	public void createStudentList() {
+		studentList = new Student(5);
+		
+		studentList.add(new Student("red",1));
+		studentList.add(new Student("bule",2));
+		studentList.add(new Student("green",2));
+		studentList.add(new Student("black",1));
+		studentList.add(new Student("pink",2));
+
+	}
+}
