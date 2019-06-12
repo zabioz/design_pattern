@@ -19,7 +19,7 @@ public class HotPot {
 	public void addVegetables(List<Vegetable> vegetable) {
 		this.vegetables = vegetables;	
 	}
-	public void addOtherUngredients(List<Ingredients> otherIngredients) {
+	public void addOtherIngredients(List<Ingredients> otherIngredients) {
 		this.otherIngredients = otherIngredients;
 	}
 
