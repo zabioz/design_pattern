@@ -1,0 +1,10 @@
+package AbstractFactory;
+
+import java.util.*;
+
+public class MizutakiFactory extends Factory{
+	public Soup getSoup() {
+		
+	}
+
+}

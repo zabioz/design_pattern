@@ -1,14 +1,17 @@
-.metadata/
-bin/
-.settings/
+### Java ###
+# Compiled class file
 *.class
 
+# Log file
 *.log
 
+# BlueJ files
 *.ctxt
 
-*.mtj.tmp
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
+# Package Files #
 *.jar
 *.war
 *.nar
@@ -16,4 +19,3 @@ bin/
 *.zip
 *.tar.gz
 *.rar
-
