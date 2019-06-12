@@ -1,0 +1,12 @@
+package AbstractFactory;
+
+public class SampleClass {
+
+	public static void main(String args[]) {
+		HotPot hotPot = new HotPot(new Pot());
+		hotPot.addSoup(new ChickenBonesSoup());
+		hotPot.addMain(new Chicken());
+		List<Vegetable> vegetable = new ArrayList<Vegetable>();
+		vegetables.add(new ChineseCabbage());
+	}
+}

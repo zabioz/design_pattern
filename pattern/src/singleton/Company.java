@@ -1,4 +1,4 @@
-package patten;
+package singleton;
 
 public class Company {
 

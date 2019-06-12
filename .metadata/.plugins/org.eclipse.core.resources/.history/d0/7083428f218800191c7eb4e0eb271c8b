@@ -1,0 +1,18 @@
+package FactoryMethod;
+
+public class ImagawasCutPrint extends CutPrint {
+	protected void draw(Cuttable hanzai) {
+		System.out.println("manga");
+	}
+	protected void cut(Cuttable hanzai) {
+		System.out.println("::"){
+			
+		}
+		protected void print(Cuttale hanzai) {
+			System.out.println(){
+				
+			}
+		}
+	}
+	
+}

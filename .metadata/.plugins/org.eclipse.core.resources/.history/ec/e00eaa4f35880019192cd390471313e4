@@ -1,0 +1,7 @@
+package AbstractFactory;
+
+import java.util.*;
+
+public abstract class Factory {
+
+}
