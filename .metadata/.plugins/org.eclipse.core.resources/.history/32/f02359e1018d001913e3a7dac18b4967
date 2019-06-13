@@ -4,7 +4,7 @@ public class Car {
 
 	public static int serialNum = 10001;
 	public int CarNum;
-	public static Car CreateCar;
+	public static CreateCar;
 	
 	public Car() {
 		serialNum++;
@@ -17,7 +17,7 @@ public class Car {
 		return CarNum;
 	}
 
-	public static Car CreateCar() {
+	public static CreateCar() {
 		
 		return CreateCar;
 	}

@@ -4,22 +4,26 @@ public class Car {
 
 	public static int serialNum = 10001;
 	public int CarNum;
-	public static Car CreateCar;
+	public Car CreateCar;
 	
 	public Car() {
 		serialNum++;
 		CarNum = serialNum;
 
 	}
+	
 
-	public int getCarNum() {
-		
-		return CarNum;
+	public int[] getCarNum() {
+		// TODO Auto-generated method stub
+		return getCarNum();
 	}
+
 
 	public static Car CreateCar() {
-		
-		return CreateCar;
+		// TODO Auto-generated method stub
+		return null;
 	}
+
+	
 	
 }

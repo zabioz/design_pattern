@@ -13,12 +13,12 @@ public class Car {
 	}
 
 	public int getCarNum() {
-		
+		// TODO Auto-generated method stub
 		return CarNum;
 	}
 
 	public static Car CreateCar() {
-		
+		// TODO Auto-generated method stub
 		return CreateCar;
 	}
 	
