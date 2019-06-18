@@ -1,0 +1,21 @@
+package Observer;
+
+public class Singer implements Talent{
+	private ArrayList <fan> fanList;
+	public Singer() {
+		fanList = new ArrayList<Fan>();
+}
+	
+	@Override
+	public void addFan(Fan o) {
+		fanList.add(o);
+	}
+	@Override
+	public void deleteFan(Fan o) {
+		if ( fanList.index0F(0) <= 0) {
+			fanList.remove(o);
+		}
+	}
+	
+	
+}

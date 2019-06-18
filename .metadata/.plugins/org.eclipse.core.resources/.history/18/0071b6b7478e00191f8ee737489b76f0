@@ -1,0 +1,6 @@
+package AbstractFactory;
+
+public class MachineA {
+	public void process();
+
+}

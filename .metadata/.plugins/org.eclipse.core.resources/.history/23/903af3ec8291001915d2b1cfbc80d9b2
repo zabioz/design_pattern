@@ -1,0 +1,22 @@
+package Observer;
+
+
+	public static void main(String[] args) {
+		Singer mcJDM = new Singer();
+		
+		SingerFan person1 = new SingerFan("일반인1");
+		SingerFan person2 = new SingerFan("일반인2");
+		
+		mcJDM.addFan(person1);
+		mcJDM.addFan(person2);
+		
+		mcJDM.speak();
+		
+		mcJDM.deleteFan(person2);
+		
+		SingerFan person3 = new SingerFan("일반인");
+		mcJDM.addFan(person3);
+		
+		mcJDM.speak();
+	}
+}

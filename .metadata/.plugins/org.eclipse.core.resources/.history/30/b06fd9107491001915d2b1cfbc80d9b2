@@ -1,0 +1,8 @@
+package Observer;
+
+public interface Talent {
+	public void addFan(Fan 0);
+	public void deleteFan(Fan 0);
+	public void speak();
+	
+}

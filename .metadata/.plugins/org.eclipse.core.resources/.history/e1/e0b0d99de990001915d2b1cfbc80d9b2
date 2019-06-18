@@ -1,0 +1,5 @@
+package interface Decorator;
+
+public interface Cookie {
+
+}

@@ -1,0 +1,26 @@
+package AbstractFactory;
+
+public class HotPot {
+	private Pot pot;
+	private Soup soup;
+	private Protein protein;
+	private List vegetables;
+	private List otherIngredients;
+	public HotPot(Pot pot) {
+		this.pot = pot;
+	}
+	public void addSoup(Soup soup) {
+		this.soup = soup
+	}
+	public void addMain = (protein protein) {
+		this.protein = protein;
+		}
+		
+	public void addVegetables(List<Vegetable> vegetable) {
+		this.vegetables = vegetables;	
+	}
+	public void addOtherIngredients(List<Ingredients> otherIngredients) {
+		this.otherIngredients = otherIngredients;
+	}
+
+}

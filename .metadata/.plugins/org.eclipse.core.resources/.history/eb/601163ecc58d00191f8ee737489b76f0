@@ -1,0 +1,6 @@
+package FactoryMethod;
+
+public class Pizza {
+	public abstract String getName();
+
+}

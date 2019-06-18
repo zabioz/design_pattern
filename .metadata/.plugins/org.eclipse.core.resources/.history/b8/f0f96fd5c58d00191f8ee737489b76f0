@@ -1,0 +1,10 @@
+package FactoryMethod;
+
+public class TomatoPizza extends Pizza {
+	@Overrinde
+
+	puvlic String getName() {
+		return "TomatoPizza";
+	}
+
+}

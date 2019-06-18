@@ -1,0 +1,8 @@
+package Observer;
+
+public static void main(String[] args) {
+	Singer mcJDM = new Singer();
+	
+	SingerFan person1 = new SingerFan("일반인1");
+	SingerFan person2 = new SingerFan("일반인2");
+}

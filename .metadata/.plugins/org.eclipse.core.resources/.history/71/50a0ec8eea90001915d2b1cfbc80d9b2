@@ -1,0 +1,13 @@
+package Decorator;
+
+public abstract class MilkTopping extends Topping{
+
+	public MilkTooping(Cookie cookie) {
+		super(cookie);
+	}
+	
+	@Override
+	public String getName() {
+		return "MILK TASTE" + cookie.getName();
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Observer.SingerFann&apos; to &apos;SingerFan&apos;&#x0A;- Original project: &apos;pattern&apos;&#x0A;- Original element: &apos;Observer.SingerFann&apos;&#x0A;- Renamed element: &apos;Observer.SingerFan&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SingerFann&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Observer{SingerFann.java[SingerFann" matchStrategy="1" name="SingerFan" qualified="false" references="true" similarDeclarations="false" stamp="1560829466125" textual="false" version="1.0"/>
+</session>
