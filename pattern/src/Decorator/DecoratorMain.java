@@ -14,7 +14,7 @@ public class DecoratorMain {
 		
 	System.out.println(chocolateDoubleMilkBraveCookie.getName());
 		
-	
+
 	Cookie SodaCookie = new Cookie() {
 		@Override
 		public String getName() {

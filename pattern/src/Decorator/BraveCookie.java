@@ -5,5 +5,4 @@ public class BraveCookie implements Cookie {
 	public String getName() {
 		return "BRAVECOOKIE";
 	}
-
 }
